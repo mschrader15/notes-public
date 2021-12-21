@@ -6,7 +6,7 @@ relativeSavePath: "/Library/Software"
 # SUMO Build + Contribution Instructions
 ---
 ## Overview
-This document will walk through what I have found to be the best way to buildSUMO as well as contributing to the project. In general, the workflow looks like:
+This document will walk through what I have found to be the best way to build SUMO as well as contributing to the project. In general, the workflow looks like:
 
 1. Fork [SUMO](https://github.com/eclipse/sumo)
 	1. Max has already forked to [BittleResearchGroup](https://github.com/UnivOfAlabama-BittleResearchGroup/sumo?organization=UnivOfAlabama-BittleResearchGroup&organization=UnivOfAlabama-BittleResearchGroup)
@@ -61,7 +61,7 @@ git fetch --all
 git merge upstream/main
 ```
 ### Prepping VSCode for Development (on Windows)
-I have tried both [VSCode](https://code.visualstudio.com/) and [CLion](https://www.jetbrains.com/clion/) and come to the conclusion that VSCode (with add-ons) is the betterIDE.
+I have tried both [VSCode](https://code.visualstudio.com/) and [CLion](https://www.jetbrains.com/clion/) and come to the conclusion that VSCode (with add-ons) is the better IDE.
 
 #### Installing the Extensions & Necessary C++ Build Tools
 The first step will be adding the necessary VSCode extensions, which the [C/C++ Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack) should cover. 
@@ -149,7 +149,7 @@ The launch task configured in `launch.json` does a couple of things automaticall
 3. It launches the built target with the arguments specified in `“args”`in an external terminal
 4. It attaches a debugger to target
 ###  Running a Simulation with the Debugger
-Because this document was created to help extendNEMA dual ring controller, we will start by debugging its entry point: `src\microsim\traffic_lights\NEMAController.cpp`.
+Because this document was created to help extend NEMA dual ring controller, we will start by debugging its entry point: `src\microsim\traffic_lights\NEMAController.cpp`.
 
 The bulk of the logic occurs inside the [NEMALogic](https://github.com/UnivOfAlabama-BittleResearchGroup/sumo/blob/99315ba0f2ed1f4a9411520633dbcab8bfeb8bcd/src/microsim/traffic_lights/NEMAController.cpp#L593) function.
 
