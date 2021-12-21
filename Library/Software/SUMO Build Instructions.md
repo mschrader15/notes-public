@@ -85,13 +85,13 @@ I found that I also need to set the `SUMO_LIBRARIES` environmental variable. If 
 
 After installing the extensions and libraries. Open the `sumo` folder in VSCode. The following notification should pop up in the bottom right corner:
 
-![Pasted image 20211220142923.png](resources/Pasted%20image%2020211220142923.png)
+![Pasted image 20211220142923.png](/resources/Pasted_image_20211220142923.png)
 
 Select “Yes” to have CMAKE configure the project according to  `CMakeLists.txt`
 
 Once the configuration finishes, the bottom bar should look something like below:
 
-![vscode_footer.png](resources/vscode_footer.png)
+![vscode_footer.png](/resources/vscode_footer.png)
 
 - The **CMake button** allows you to select the build variant.
 	- I have not strayed from `Debug + FMI + Python + noJava`
