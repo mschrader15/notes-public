@@ -153,5 +153,9 @@ Because this document was created to help extendNEMA dual ring controller, we wi
 
 The bulk of the logic occurs inside the [NEMALogic](https://github.com/UnivOfAlabama-BittleResearchGroup/sumo/blob/99315ba0f2ed1f4a9411520633dbcab8bfeb8bcd/src/microsim/traffic_lights/NEMAController.cpp#L593) function.
 
-You can place a break point on any line in this 
+You can place a break point on any line in this code and start debugging.
+
+[The annotated PDF ](https://github.com/mschrader15/notes-public/blob/main/Library/Software/NEMA_flow_correct.pdf) provides a graphical view of the NEMALogic function.
+
+**More will be added to this document as necessary…**
 
