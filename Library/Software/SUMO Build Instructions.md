@@ -85,7 +85,7 @@ I found that I also need to set the `SUMO_LIBRARIES` environmental variable. If 
 
 After installing the extensions and libraries. Open the `sumo` folder in VSCode. The following notification should pop up in the bottom right corner:
 
-![Pasted image 20211220142923.png](resources/Pasted image 20211220142923.png)
+![Pasted image 20211220142923.png]("resources/Pasted image 20211220142923.png")
 
 Select “Yes” to have CMAKE configure the project according to  `CMakeLists.txt`
 
