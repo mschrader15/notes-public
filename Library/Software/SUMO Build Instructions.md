@@ -68,11 +68,10 @@ The first step will be adding the necessary VSCode extensions, which the [C/C++ 
 
 I like to use package managers (homebrew on MacOS and apt-get on Linux), so I installed [Chocolatey](https://docs.chocolatey.org/en-us/) on Windows. You can install Chocolatey by following the [instructions here](https://docs.chocolatey.org/en-us/choco/setup). 
 
-Once [Chocolatey](https://docs.chocolatey.org/en-us/) is installed, you can install `cmake` with 
+Once [Chocolatey](https://docs.chocolatey.org/en-us/) is installed, you can install `cmake` with (**Make sure that you are inside of an administrative shell**)
 ```
 choco install cmake
 ```
-**Make sure that you are inside of an administrative shell**
 #### Installing Necessary C++ Libraries
 SUMO provides a bundle of necessary C++ Libraries for Windows development. You can clone the libraries from [this repository](https://github.com/DLR-TS/SUMOLibraries/). You should clone the library in the `sumo` folder per their instructions. 
 ```
@@ -80,6 +79,8 @@ git clone --recursive https://github.com/DLR-TS/SUMOLibraries
 ```
 
 I found that I also need to set the `SUMO_LIBRARIES` environmental variable. If that is the case for you, I would suggest cloning the repository outside of `sumo` folder - as it will make `git` more complicated. 
+
+You will likely have to close and re-open VSCode if you set the environmental variables.
  
  #### Configuring CMAKE
 
@@ -102,7 +103,6 @@ Once the configuration finishes, the bottom bar should look something like below
 - The bracketed **[ALL_BUILD]** button allows you to select the *program* to build. 
 	- This allows you to build **only** the executable that you want to debug.
 	- Initially I would recommend building all the sources, and then switching to just **[sumo-gui]**  of **[sumo]** which saves compile time while debugging.
-
 ### Building SUMO
 Its possible that your selected build target from above already built. If not, click on the ⚙️ Build button and CMake will start building the target.
 - You should first build all of the sources and then change to just `[sumo]` or `[sumo-gui]`
