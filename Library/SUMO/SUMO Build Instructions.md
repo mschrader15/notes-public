@@ -103,13 +103,13 @@ You will likely have to close and re-open VSCode if you set the environmental va
 
 After installing the extensions and libraries. Open the `sumo` folder in VSCode. The following notification should pop up in the bottom right corner:
 
-
+![Pasted image 20211220142923.png](Pasted%20image%2020211220142923.png)
 
 Select “Yes” to have CMAKE configure the project according to  `CMakeLists.txt`
 
 Once the configuration finishes, the bottom bar should look something like below:
 
-
+![vscode_footer.png](vscode_footer.png)
 
 * The **CMake button** allows you to select the build variant.
   * I have not strayed from `Debug + FMI + Python + noJava`
@@ -174,7 +174,7 @@ The launch task configured in `launch.json` does a couple of things automaticall
 
 #### Attaching to an Existing SUMO Instance
 
-If you are following along in *Single Intersection Airport Harper*, you were probably routed here.
+If you are following along in [Single Intersection Airport Harper](Single%20Intersection%20Airport%20Harper.md), you were probably routed here.
 
 To debug a “running” simulation, we need to attach to the process. The following addition to the `launch.json` will allow us to do just that
 

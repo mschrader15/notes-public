@@ -38,7 +38,7 @@ If you are simulating the [airport-harper network](https://github.com/UnivOfAlab
 
 ## Updating Paths
 
-See *Single Intersection Airport Harper > Running A Simulation with EOS SIL*
+See [Single Intersection Airport Harper > Running A Simulation with EOS SIL](Single%20Intersection%20Airport%20Harper.md#running-a-simulation-with-eos-sil)
 
 ## Known Issues
 
