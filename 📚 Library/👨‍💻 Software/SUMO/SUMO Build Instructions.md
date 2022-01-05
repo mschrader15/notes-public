@@ -192,7 +192,7 @@ Then run the “(cppvsdbg) Attach” in the debug window and it should open a di
 
 ### Running a Simulation with the Debugger
 
-Because this document was created to help extend *NEMA dual ring* controller, we will start by debugging its entry point: `src\microsim\traffic_lights\NEMAController.cpp`.
+Because this document was created to help extend [NEMA dual ring](../../../%F0%9F%8C%B3%20Evergreen/Engineering/NEMA%20dual%20ring.md) controller, we will start by debugging its entry point: `src\microsim\traffic_lights\NEMAController.cpp`.
 
 The bulk of the logic occurs inside the [NEMALogic](https://github.com/UnivOfAlabama-BittleResearchGroup/sumo/blob/99315ba0f2ed1f4a9411520633dbcab8bfeb8bcd/src/microsim/traffic_lights/NEMAController.cpp#L593) function.
 
